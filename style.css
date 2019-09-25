@@ -23,7 +23,23 @@
     font-family: "Segoe UI";
     src: url(./assets/fonts/SegoeUI.ttf) format("truetype");
   }
+  @font-face {
+    font-family: "SegoeUI-Bold";
+    src: url(./assets/fonts/SegoeUI-Bold.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "SegoeUI-Light";
+    src: url(./assets/fonts/SegoeUI-Light.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Asap-Regular";
+    src: url(./assets/fonts/Asap-Regular.ttf) format("truetype");
+  }
 
+  @font-face {
+    font-family: "LucidaSans-Italic";
+    src: url(./assets/fonts/LucidaSans-Italic.ttf) format("truetype");
+  }
 
  
 .container_bg {
@@ -79,11 +95,11 @@
 .zone_5 {
   display: block;
   width: 100%;
-  height: 566px;
+  height: -566px;
   margin: auto;
   font-size: 30px;
   position: relative;
-  top: -596px;
+  top: -565px;
   box-shadow: 0px -7px 5px 1px #000000 inset;
   background-image: url(./assets/image/Layer\ 20@1X.png),
     url(./assets/image/Layer\ 1.png);
@@ -417,21 +433,604 @@
     font-weight: 300;
 }
 .text_elements {
-    display: block;
-    width: 24.3%;
-    height: 221px;
-    font-size: 26px;
-    letter-spacing: 1px;
-    line-height: 39px;
-    color: #ffffff;
-    font-family: "Segoe UI";
-    position: absolute;
-    text-align: right;
-    left: 827px;
-    top: 116px;
+  display: block;
+  width: 24.3%;
+  height: 225px;
+  font-size: 17pt;
+  letter-spacing: 1px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  position: absolute;
+  text-align: right;
+  left: 827px;
+  top: 116px;
+  font-weight: normal;
 
 }
+.number25 {
+  display: block;
+    width: 7.3%;
+    height: 46px;
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeUI-Bold";
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 148px;
+    top: 354px;
+    font-weight: normal;
+}
 
+.textAPRIL {
+  display: block;
+  width: 7.3%;
+  height: 46px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #b26529;
+  font-family: "Segoe UI";
+  left: 148px;
+  top: 390px;
+  position: absolute;
+  text-align: center;
+}
 
+.plus_image {
+  display: block;
+    width: 11px;
+    height: 11px;
+    margin: auto;
+    position: absolute;
+    left: 1137px;
+    top: 318px;
+    color: #ffffff;
+}
 
+.plus_image_1 {
+  display: block;
+    width: 11px;
+    height: 11px;
+    margin: auto;
+    position: absolute;
+    left: 454px;
+    top: 318px;
+    color: #ffffff;
+}
 
+.zone_header {
+  display: block;
+  width: 918px;
+  height: 130px;
+  margin: auto;
+  position: absolute;
+  left: 140px;
+  top: 33px;
+  font-size: 37px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-weight: 400; 
+  text-transform: uppercase;
+}
+.video_main {
+  display: block;
+  width: 24%;
+  height: 232px;
+  margin: auto;
+  position: absolute;
+  left: 483px;
+  top: 108px;
+}
+
+.video_img {
+  display: block;
+    width: 12%;
+    height: 96px;
+    margin: auto;
+    position: absolute;
+    left: 557px;
+    top: 191px;
+}
+
+.play_1 {
+  display: block;
+    width: 61px;
+    height: 61px;
+    margin: auto;
+    position: absolute;
+    left: 53px;
+    top: 12px;
+}
+
+.play_2 {
+  display: block;
+    width: 17px;
+    height: 31px;
+    margin: auto;
+    position: absolute;
+    left: 77px;
+    top: 26px;
+}
+
+.separator_1 {
+    display: block;
+    width: 1px;
+    height: 213px;
+    margin: auto;
+    position: absolute;
+    left: 139px;
+    top: 0px;
+}
+.separator_2 {
+  display: block;
+  width: 1px;
+  height: 213px;
+  margin: auto;
+  position: absolute;
+  left: 480px;
+  top: 0px;
+}
+.separator_3 {
+  display: block;
+  width: 1px;
+  height: 213px;
+  margin: auto;
+  position: absolute;
+  left: 819px;
+  top: 0px;
+}
+.separator_4 {
+  display: block;
+  width: 1px;
+  height: 213px;
+  margin: auto;
+  position: absolute;
+  left: 1159px;
+  top: 0px;
+}
+.button_1 {
+  display: block;
+    width: 343px;
+    height: 212px;
+    margin: auto;
+    position: absolute;
+    left: 138px;
+    top: 0px;
+} 
+.button_2 {
+  display: block;
+    width: 340px;
+    height: 212px;
+    margin: auto;
+    position: absolute;
+    left: 480px;
+    top: 0px; 
+}
+.button_3 {
+  display: block;
+    width: 341px;
+    height: 212px;
+    margin: auto;
+    position: absolute;
+    left: 819px;
+    top: 0px;
+}
+.button1 { 
+  width: 109px;
+  height: 74px;
+  margin: auto;
+  position: absolute;
+  left: 115px;
+  top: 60px;
+}
+.button2 {
+  width: 95px;
+  height: 99px;
+  margin: auto;
+  position: absolute;
+  left: 131px;
+  top: 35px;
+}
+.button3 {
+  width: 82px;
+  height: 84px;
+  margin: auto;
+  position: absolute;
+  left: 119px;
+  top: 53px;
+}
+.text_button_1 {
+font-size: 27px;
+letter-spacing: 0px;
+color: #000000;
+font-family: "SegoeUI-Light";
+font-weight: 300;
+text-align: center;
+text-transform: uppercase;
+margin: auto;
+position: absolute;
+left: 91px;
+top: 149px;
+}
+.text_button_2 {
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: "SegoeUI-Light";
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  position: absolute;
+  left: 111px;
+  top: 149px;
+  }
+  .text_button_3 {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "SegoeUI-Light";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    position: absolute;
+    left: 115px;
+    top: 149px;
+    }
+    .main_text {
+      display: block;
+      width: 32%;
+      height: 50%;
+      margin: auto;
+      position: absolute;
+      left: 730px;
+      top: 242px;
+      font-size: 63px;
+      letter-spacing: 1px;
+      color: #f5c506;
+      font-family: "Asap-Regular";
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%
+    }
+    .colortext {
+      color: #ffffff;
+      position: relative;
+ left: 9px;
+    }
+    .video_player {
+      display: block;
+      width: 42.2%;
+      height: 327px;
+      margin: auto;
+      position: absolute;
+      left: 150px;
+      top: 167px;
+    }
+    .birds {
+      display: block;
+      width: 100%;
+      height: 327px;
+      margin: auto;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .birds_bg {
+      display: block;
+      width: 100%;
+      height: 327px;
+      margin: auto;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .video_birds {
+      display: block;
+      width: 100%;
+      height: 327px;
+      margin: auto;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .rounded_rectangle_1x1 {
+      display: block;
+      width: 73.3%;
+      height: 12px;
+      margin: auto;
+      position: absolute;
+      left: 80px;
+      top: 286px;
+      opacity: 1;
+    }
+    .rounded_rectangle_1x2 {
+      display: block;
+      width: 32%;
+      height: 12px;
+      margin: auto;
+      position: absolute;
+      left: 81px;
+      top: 286px;
+     
+    }
+    .sound {
+      display: block;
+      width: 2.5%;
+      height: 15px;
+      margin: auto;
+      position: absolute;
+      left: 515px;
+      top: 285px;
+    }
+    .play_button {
+      display: block;
+      width: 5%;
+      height: 27px;
+      margin: auto;
+      position: absolute;
+      left: 29px;
+      top: 278px;
+    }
+    .play_button_1 {
+      display: block;
+      width: 2%;
+      height: 17px;
+      margin: auto;
+      position: absolute;
+      left: 39px;
+      top: 283px;
+    
+    }
+    .play_button_2 {
+      display: block;
+      width: 12.2%;
+      height: 67px;
+      margin: auto;
+      position: absolute;
+      left: 241px;
+      top: 130px;
+    
+    }
+    .play_button_3 {
+      display: block;
+      width: 3.3%;
+      height: 34px;
+      margin: auto;
+      position: absolute;
+      left: 268px;
+      top: 147px;
+    
+    }
+
+    .logo_heder {
+      display: block;
+      width: 99%;
+      height: 115px;
+      margin: auto;
+      position: absolute;
+      left: 142px;
+      z-index: 10;
+      top: 2px;
+    }
+    .logo_heder_1 {
+      display: block;
+      width: 79px;
+      height: 79px;
+      margin: auto;
+      position: absolute;
+      left: 142px;
+      top: 29px;
+      opacity: 0.5;
+    }
+    .logo_heder_2 {
+      display: block;
+      width: 83px;
+      height: 83px;
+      margin: auto;
+      position: absolute;
+      left: 140px;
+      top: 28px;
+    }
+    .logo_text_heder{
+      display: block;
+      width: 225px;
+      height: 30px;
+      margin: auto;
+      position: absolute;
+      left: 226px;
+      top: 50px;
+      font-size: 30.04912pt;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 255);
+      font-family: "LucidaSans-Italic";
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%
+    }
+    .nav_heder {
+      display: block;
+      width: 35.1%;
+      height: 58px;
+      margin: auto;
+      position: absolute;
+      z-index: 12;
+      left: 842px;
+      top: 63px;
+      
+    }
+    .bg_nav_heder {
+      display: block;
+      width: 453px;
+      height: 41px;
+      margin: auto;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0.5;
+    }
+    .bg_nav_heder_1 {
+      display: block;
+      width: 453px;
+      height: 41px;
+      margin: auto;
+      position: absolute;
+      left: 4px;
+      top: 3px;
+      opacity: 0.8;
+    }
+    .bg_nav_heder_2 {
+      display: block;
+      width: 453px;
+      height: 41px;
+      margin: auto;
+      position: absolute;
+      left: 8px;
+      top: 8px;
+    }
+    .bg_nav_heder_3 {
+      display: block;
+      width: 1px;
+      height: 40px;
+      margin: auto;
+      position: absolute;
+      left: 180px;
+      top: 8px;
+    }
+    .bg_nav_heder_4 {
+      display: block;
+      width: 1px;
+      height: 40px;
+      margin: auto;
+      position: absolute;
+      left: 313px;
+      top: 8px;
+    }
+    .logo_nav_heder {
+      display: block;
+      width: 21px;
+      height: 19px;
+      margin: auto;
+      position: absolute;
+      left: 47px;
+      top: 19px;
+    }
+    .logo_nav_heder_1 {
+      display: block;
+      width: 19px;
+      height: 19px;
+      margin: auto;
+      position: absolute;
+      left: 195px;
+      top: 19px;
+    }
+    .logo_nav_heder_2 {
+      display: block;
+      width: 24px;
+      height: 18px;
+      margin: auto;
+      position: absolute;
+      left: 331px;
+      top: 19px;
+    }
+    .text_nav_heder {
+      display: block;
+      width: 81px;
+      height: 14px;
+      margin: auto;
+      position: absolute;
+      left: 77px;
+      top: 20px;
+      font-size: 12.04912pt;
+      letter-spacing: 1px;
+      color: rgba(155, 125, 8, 255);
+      font-family: "SegoeUI-Light";
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%
+    }
+    .text_nav_heder_1 {
+      display: block;
+      width: 81px;
+      height: 14px;
+      margin: auto;
+      position: absolute;
+      left: 218px;
+      top: 20px;
+      font-size: 12.04912pt;
+      letter-spacing: 1px;
+      color: rgba(155, 125, 8, 255);
+      font-family: "SegoeUI-Light";
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%
+    }
+    .text_nav_heder_2 {
+      display: block;
+      width: 81px;
+      height: 14px;
+      margin: auto;
+      position: absolute;
+      left: 359px;
+      top: 20px;
+      font-size: 12.04912pt;
+      letter-spacing: 1px;
+      color: rgba(155, 125, 8, 255);
+      font-family: "SegoeUI-Light";
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%
+      
+    }
+    .nav_left {
+      display: block;
+      width: 32px;
+      height: 57px;
+      margin: auto;
+      position: absolute;
+      z-index: 15;
+      left: 0px;
+      top: 300px;
+    }
+    .nav_right {
+      display: block;
+      width: 32px;
+      height: 57px;
+      margin: auto;
+      position: absolute;
+      z-index: 15;
+      left: 1267px;
+      top: 300px;
+    }
+    .nav_left_1 {
+      display: block;
+      width: 13px;
+      height: 19px;
+      margin: auto;
+      position: absolute;
+      z-index: 15;
+      left: 8px;
+      top: 319px;
+    }
+    .nav_right_1 {
+      display: block;
+      width: 13px;
+      height: 19px;
+      margin: auto;
+      position: absolute;
+      z-index: 15;
+      left: 1279px;
+      top: 318px;
+    }
