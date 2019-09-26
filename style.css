@@ -1034,3 +1034,138 @@ top: 149px;
       left: 1279px;
       top: 318px;
     }
+                                              /* HOVER                                                           */
+     .nav_left_1:hover {
+      display: block;
+      width: 15px;
+      height: 21px;
+      margin: auto;
+      position: absolute;
+      z-index: 15;
+      left: 1px;
+      top: 319px;
+    }
+    .nav_right_1:hover {
+      display: block;
+      width: 15px;
+      height: 21px;
+      margin: auto;
+      position: absolute;
+      z-index: 15;
+      left: 1289px;
+      top: 318px;
+    }                                         
+    .text_nav_heder:hover {
+      display: block;
+      width: 101px;
+      height: 24px;
+      margin: auto;
+      position: absolute;
+      left: 77px;
+      top: 20px;
+      font-size: 13.04912pt;
+      letter-spacing:1px;
+      color:red;
+      font-family: "SegoeUI-Light";
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%;
+      text-shadow: 1px 2px 0px #000000;
+
+    }
+    .text_nav_heder_1:hover  {
+      display: block;
+      width: 101px;
+      height: 24px;
+      margin: auto;
+      position: absolute;
+      left: 218px;
+      top: 20px;
+      font-size: 13.04912pt;
+      letter-spacing: 1px;
+      color:red;
+      font-family: "SegoeUI-Light";
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118% ;
+      text-shadow: 1px 2px 0px #000000;
+
+    }
+    .text_nav_heder_2:hover  {
+      display: block;
+      width: 101px;
+      height: 24px;
+      margin: auto;
+      position: absolute;
+      left: 359px;
+      top: 20px;
+      font-size: 13.04912pt;
+      letter-spacing: 1px;
+      color:red;
+      font-family: "SegoeUI-Light";
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 118%;
+      text-shadow: 1px 2px 0px #000000;
+    }
+    .button1:hover { 
+      width: 109px;
+      height: 74px;
+      margin: auto;
+      position: absolute;
+      left: 115px;
+      top: 60px;
+      border: 2px double red;
+    }
+    .button2:hover {
+      width: 95px;
+      height: 99px;
+      margin: auto;
+      position: absolute;
+      left: 131px;
+      top: 35px;
+      border: 2px double red;
+
+    }
+    .button3:hover {
+      width: 82px;
+      height: 84px;
+      margin: auto;
+      position: absolute;
+      left: 119px;
+      top: 53px;
+      border: 2px double red;
+
+    }
+    .plus_image:hover {
+      display: block;
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        position: absolute;
+        left: 1137px;
+        top: 318px;
+    
+    }
+    
+    .plus_image_1:hover {
+      display: block;
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        position: absolute;
+        left: 454px;
+    }
+    .rounded_rectangle1:hover {
+      display: block;
+      width: 23%;
+      height: 15px;
+      margin: auto;
+      position: absolute;
+      left: 471px;
+      top: 104px;
+      
+    }
