@@ -41,7 +41,12 @@
     src: url(./assets/fonts/LucidaSans-Italic.ttf) format("truetype");
   }
 
- 
+  .container_bg_1 {
+    display: block;
+    width: 82%;
+    height: 1850px;
+    margin: 0 auto;
+  }
 .container_bg {
   display: block;
   width: 82%;
