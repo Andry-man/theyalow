@@ -15,38 +15,42 @@
   src: url(./assets/fonts/ptsans/PTSans-Narrow.ttf) format("truetype");
 }
 @font-face {
-    font-family: "SegoeWP-Light";
-    src: url(./assets/fonts/SegoeWP-Light.ttf) format("truetype");
-  }
+  font-family: "SegoeWP-Light";
+  src: url(./assets/fonts/SegoeWP-Light.ttf) format("truetype");
+}
 
 @font-face {
-    font-family: "Segoe UI";
-    src: url(./assets/fonts/SegoeUI.ttf) format("truetype");
-  }
-  @font-face {
-    font-family: "SegoeUI-Bold";
-    src: url(./assets/fonts/SegoeUI-Bold.ttf) format("truetype");
-  }
-  @font-face {
-    font-family: "SegoeUI-Light";
-    src: url(./assets/fonts/SegoeUI-Light.ttf) format("truetype");
-  }
-  @font-face {
-    font-family: "Asap-Regular";
-    src: url(./assets/fonts/Asap-Regular.ttf) format("truetype");
-  }
+  font-family: "Segoe UI";
+  src: url(./assets/fonts/SegoeUI.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  src: url(./assets/fonts/SegoeUI-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Light";
+  src: url(./assets/fonts/SegoeUI-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Asap-Regular";
+  src: url(./assets/fonts/Asap-Regular.ttf) format("truetype");
+}
 
-  @font-face {
-    font-family: "LucidaSans-Italic";
-    src: url(./assets/fonts/LucidaSans-Italic.ttf) format("truetype");
-  }
+@font-face {
+  font-family: "LucidaSans-Italic";
+  src: url(./assets/fonts/LucidaSans-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SegoeWP";
+  src: url(./assets/fonts/SegoeWP.ttf) format("truetype");
+}
 
-  .container_bg_1 {
-    display: block;
-    width: 82%;
-    height: 1850px;
-    margin: 0 auto;
-  }
+.container_bg_1 {
+  display: block;
+  width: 82%;
+  height: 1850px;
+  margin: 0 auto;
+}
 .container_bg {
   display: block;
   width: 82%;
@@ -178,7 +182,7 @@
 }
 .computer {
   display: block;
-  width: 323px;
+  width: 25%;
   height: 255px;
   margin: auto;
   opacity: 1.57;
@@ -188,7 +192,7 @@
 }
 .ellipse {
   display: block;
-  width: 116px;
+  width: 9%;
   height: 116px;
   margin: auto;
   position: absolute;
@@ -197,7 +201,7 @@
 }
 .tablet {
   display: block;
-  width: 129px;
+  width: 10%;
   height: 173px;
   margin: auto;
   position: absolute;
@@ -208,7 +212,7 @@
 
 .mobile {
   display: block;
-  width: 39px;
+  width: 3%;
   height: 63px;
   margin: auto;
   position: absolute;
@@ -218,11 +222,11 @@
 }
 .zone_2_text {
   display: block;
-  width: 631px;
+  width: 60%;
   height: 39px;
   margin: auto;
   position: absolute;
-  left: 338px;
+  left: 263px;
   top: 42px;
   font-family: "PT Sans";
   font-size: 44px;
@@ -275,7 +279,7 @@
   color: rgba(169, 169, 167, 255);
   text-align: justify;
   display: block;
-  width: 347px;
+  width: 34%;
   height: 181px;
   margin: auto;
   position: absolute;
@@ -288,7 +292,7 @@
   color: rgba(169, 169, 167, 255);
   text-align: justify;
   display: block;
-  width: 344px;
+  width: 80%;
   height: 181px;
   margin: auto;
   position: absolute;
@@ -302,7 +306,7 @@
   color: rgba(169, 169, 167, 255);
   text-align: justify;
   display: block;
-  width: 344px;
+  width: 75%;
   height: 181px;
   margin: auto;
   position: absolute;
@@ -316,7 +320,7 @@
   color: rgba(169, 169, 167, 255);
   text-align: justify;
   display: block;
-  width: 343px;
+  width: 75%;
   height: 57px;
   margin: auto;
   position: absolute;
@@ -329,7 +333,7 @@
   color: #ffffff;
   font-family: "PT Sans Narrow";
   font-weight: 700;
-  width: 139px;
+  width: 40%;
   height: 60px;
   left: -664px;
   top: -39px;
@@ -377,65 +381,65 @@
   top: 104px;
 }
 .section_zone3 {
-    display: block;
-    width: 100%;
-    height: 444px;
-    margin: auto;
-    position: absolute;
-    left: 0px;
-    top: 2px;
+  display: block;
+  width: 100%;
+  height: 444px;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  top: 2px;
 }
 
 .layer22 {
-    display: block;
-    width: 26.5%;
-    height: 233px;
-    margin: auto;
-    position: absolute;
-    left: 139px;
-    top: 107px;
+  display: block;
+  width: 26.5%;
+  height: 233px;
+  margin: auto;
+  position: absolute;
+  left: 139px;
+  top: 107px;
 }
 .layer22_calendar {
-    display: block;
-    width: 8.5%;
-    height: 86px;
-    margin: auto;
-    position: absolute;
-    left: 139px;
-    top: 340px;
+  display: block;
+  width: 8.5%;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  left: 139px;
+  top: 340px;
 }
 .Layer22_bg_twitter {
-    display: block;
-    width: 25.3%;
-    height: 233px;
-    margin: auto;
-    position: absolute;
-    left: 829px;
-    top: 108px;
+  display: block;
+  width: 25.3%;
+  height: 233px;
+  margin: auto;
+  position: absolute;
+  left: 829px;
+  top: 108px;
 }
 .Layer22_twitter {
-    display: block;
-    width: 12.5%;
-    height: 134px;
-    margin: auto;
-    position: absolute;
-    left: 910px;
-    top: 167px;
+  display: block;
+  width: 12.5%;
+  height: 134px;
+  margin: auto;
+  position: absolute;
+  left: 910px;
+  top: 167px;
 }
 .text_main_zone {
-    display: block;
-    width: 24.3%;
-    height: 218px;
-    margin: auto;
-    position: absolute;
-    left: 168px;
-    top: 123px;
-    font-size: 20.9912pt;
-    letter-spacing: 0px;
-    line-height: 38px;
-    color: #ffffff;
-    font-family: "SegoeWP-Light";
-    font-weight: 300;
+  display: block;
+  width: 24.3%;
+  height: 218px;
+  margin: auto;
+  position: absolute;
+  left: 168px;
+  top: 123px;
+  font-size: 20.9912pt;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "SegoeWP-Light";
+  font-weight: 300;
 }
 .text_elements {
   display: block;
@@ -451,23 +455,22 @@
   left: 827px;
   top: 116px;
   font-weight: normal;
-
 }
 .number25 {
   display: block;
-    width: 7.3%;
-    height: 46px;
-    font-size: 51px;
-    letter-spacing: 1px;
-    line-height: 38px;
-    color: #ffffff;
-    font-family: "SegoeUI-Bold";
-    font-weight: bold;
-    position: absolute;
-    text-align: center;
-    left: 148px;
-    top: 354px;
-    font-weight: normal;
+  width: 7.3%;
+  height: 46px;
+  font-size: 51px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "SegoeUI-Bold";
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  left: 148px;
+  top: 354px;
+  font-weight: normal;
 }
 
 .textAPRIL {
@@ -487,24 +490,24 @@
 
 .plus_image {
   display: block;
-    width: 11px;
-    height: 11px;
-    margin: auto;
-    position: absolute;
-    left: 1137px;
-    top: 318px;
-    color: #ffffff;
+  width: 11px;
+  height: 11px;
+  margin: auto;
+  position: absolute;
+  left: 1137px;
+  top: 318px;
+  color: #ffffff;
 }
 
 .plus_image_1 {
   display: block;
-    width: 11px;
-    height: 11px;
-    margin: auto;
-    position: absolute;
-    left: 454px;
-    top: 318px;
-    color: #ffffff;
+  width: 11px;
+  height: 11px;
+  margin: auto;
+  position: absolute;
+  left: 454px;
+  top: 318px;
+  color: #ffffff;
 }
 
 .zone_header {
@@ -520,7 +523,7 @@
   line-height: 38px;
   color: #ffffff;
   font-family: "PT Sans";
-  font-weight: 400; 
+  font-weight: 400;
   text-transform: uppercase;
 }
 .video_main {
@@ -535,42 +538,42 @@
 
 .video_img {
   display: block;
-    width: 12%;
-    height: 96px;
-    margin: auto;
-    position: absolute;
-    left: 557px;
-    top: 191px;
+  width: 12%;
+  height: 96px;
+  margin: auto;
+  position: absolute;
+  left: 557px;
+  top: 191px;
 }
 
 .play_1 {
   display: block;
-    width: 61px;
-    height: 61px;
-    margin: auto;
-    position: absolute;
-    left: 53px;
-    top: 12px;
+  width: 61px;
+  height: 61px;
+  margin: auto;
+  position: absolute;
+  left: 53px;
+  top: 12px;
 }
 
 .play_2 {
   display: block;
-    width: 17px;
-    height: 31px;
-    margin: auto;
-    position: absolute;
-    left: 77px;
-    top: 26px;
+  width: 17px;
+  height: 31px;
+  margin: auto;
+  position: absolute;
+  left: 77px;
+  top: 26px;
 }
 
 .separator_1 {
-    display: block;
-    width: 1px;
-    height: 213px;
-    margin: auto;
-    position: absolute;
-    left: 139px;
-    top: 0px;
+  display: block;
+  width: 1px;
+  height: 213px;
+  margin: auto;
+  position: absolute;
+  left: 139px;
+  top: 0px;
 }
 .separator_2 {
   display: block;
@@ -601,32 +604,32 @@
 }
 .button_1 {
   display: block;
-    width: 343px;
-    height: 212px;
-    margin: auto;
-    position: absolute;
-    left: 138px;
-    top: 0px;
-} 
+  width: 31%;
+  height: 212px;
+  margin: auto;
+  position: absolute;
+  left: 138px;
+  top: 0px;
+}
 .button_2 {
   display: block;
-    width: 340px;
-    height: 212px;
-    margin: auto;
-    position: absolute;
-    left: 480px;
-    top: 0px; 
+  width: 31%;
+  height: 212px;
+  margin: auto;
+  position: absolute;
+  left: 480px;
+  top: 0px;
 }
 .button_3 {
   display: block;
-    width: 341px;
-    height: 212px;
-    margin: auto;
-    position: absolute;
-    left: 819px;
-    top: 0px;
+  width: 31%;
+  height: 212px;
+  margin: auto;
+  position: absolute;
+  left: 819px;
+  top: 0px;
 }
-.button1 { 
+.button1 {
   width: 109px;
   height: 74px;
   margin: auto;
@@ -651,17 +654,17 @@
   top: 53px;
 }
 .text_button_1 {
-font-size: 27px;
-letter-spacing: 0px;
-color: #000000;
-font-family: "SegoeUI-Light";
-font-weight: 300;
-text-align: center;
-text-transform: uppercase;
-margin: auto;
-position: absolute;
-left: 91px;
-top: 149px;
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: "SegoeUI-Light";
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  position: absolute;
+  left: 91px;
+  top: 149px;
 }
 .text_button_2 {
   font-size: 27px;
@@ -675,8 +678,1151 @@ top: 149px;
   position: absolute;
   left: 111px;
   top: 149px;
+}
+.text_button_3 {
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: "SegoeUI-Light";
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  position: absolute;
+  left: 115px;
+  top: 149px;
+}
+.main_text {
+  display: block;
+  width: 32%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  left: 730px;
+  top: 242px;
+  font-size: 63px;
+  letter-spacing: 1px;
+  color: #f5c506;
+  font-family: "Asap-Regular";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+}
+.colortext {
+  color: #ffffff;
+  position: relative;
+  left: 9px;
+}
+.video_player {
+  display: block;
+  width: 42.2%;
+  height: 327px;
+  margin: auto;
+  position: absolute;
+  left: 150px;
+  top: 167px;
+}
+.birds {
+  display: block;
+  width: 100%;
+  height: 327px;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.birds_bg {
+  display: block;
+  width: 100%;
+  height: 327px;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.video_birds {
+  display: block;
+  width: 100%;
+  height: 327px;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rounded_rectangle_1x1 {
+  display: block;
+  width: 73.3%;
+  height: 12px;
+  margin: auto;
+  position: absolute;
+  left: 80px;
+  top: 286px;
+  opacity: 1;
+}
+.rounded_rectangle_1x2 {
+  display: block;
+  width: 32%;
+  height: 12px;
+  margin: auto;
+  position: absolute;
+  left: 81px;
+  top: 286px;
+}
+.sound {
+  display: block;
+  width: 2.5%;
+  height: 15px;
+  margin: auto;
+  position: absolute;
+  left: 515px;
+  top: 285px;
+}
+.play_button {
+  display: block;
+  width: 5%;
+  height: 27px;
+  margin: auto;
+  position: absolute;
+  left: 29px;
+  top: 278px;
+}
+.play_button_1 {
+  display: block;
+  width: 2%;
+  height: 17px;
+  margin: auto;
+  position: absolute;
+  left: 39px;
+  top: 283px;
+}
+.play_button_2 {
+  display: block;
+  width: 12.2%;
+  height: 67px;
+  margin: auto;
+  position: absolute;
+  left: 241px;
+  top: 130px;
+}
+.play_button_3 {
+  display: block;
+  width: 3.3%;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 268px;
+  top: 147px;
+}
+
+.logo_heder {
+  display: block;
+  width: 99%;
+  height: 115px;
+  margin: auto;
+  position: absolute;
+  left: 142px;
+  z-index: 10;
+  top: 2px;
+}
+.logo_heder_1 {
+  display: block;
+  width: 79px;
+  height: 79px;
+  margin: auto;
+  position: absolute;
+  left: 142px;
+  top: 29px;
+  opacity: 0.5;
+}
+.logo_heder_2 {
+  display: block;
+  width: 83px;
+  height: 83px;
+  margin: auto;
+  position: absolute;
+  left: 140px;
+  top: 28px;
+}
+.logo_text_heder {
+  display: block;
+  width: 225px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+  left: 226px;
+  top: 50px;
+  font-size: 30.04912pt;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 255);
+  font-family: "LucidaSans-Italic";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+}
+.nav_heder {
+  display: block;
+  width: 35.1%;
+  height: 58px;
+  margin: auto;
+  position: absolute;
+  z-index: 12;
+  left: 842px;
+  top: 63px;
+}
+.bg_nav_heder {
+  display: block;
+  width: 453px;
+  height: 41px;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5;
+}
+.bg_nav_heder_1 {
+  display: block;
+  width: 453px;
+  height: 41px;
+  margin: auto;
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  opacity: 0.8;
+}
+.bg_nav_heder_2 {
+  display: block;
+  width: 453px;
+  height: 41px;
+  margin: auto;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+.bg_nav_heder_3 {
+  display: block;
+  width: 1px;
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  left: 180px;
+  top: 8px;
+}
+.bg_nav_heder_4 {
+  display: block;
+  width: 1px;
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  left: 313px;
+  top: 8px;
+}
+.logo_nav_heder {
+  display: block;
+  width: 21px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 47px;
+  top: 19px;
+}
+.logo_nav_heder_1 {
+  display: block;
+  width: 19px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 195px;
+  top: 19px;
+}
+.logo_nav_heder_2 {
+  display: block;
+  width: 24px;
+  height: 18px;
+  margin: auto;
+  position: absolute;
+  left: 331px;
+  top: 19px;
+}
+.text_nav_heder {
+  display: block;
+  width: 81px;
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  left: 77px;
+  top: 20px;
+  font-size: 12.04912pt;
+  letter-spacing: 1px;
+  color: rgba(155, 125, 8, 255);
+  font-family: "SegoeUI-Light";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+}
+.text_nav_heder_1 {
+  display: block;
+  width: 81px;
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  left: 218px;
+  top: 20px;
+  font-size: 12.04912pt;
+  letter-spacing: 1px;
+  color: rgba(155, 125, 8, 255);
+  font-family: "SegoeUI-Light";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+}
+.text_nav_heder_2 {
+  display: block;
+  width: 81px;
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  left: 359px;
+  top: 20px;
+  font-size: 12.04912pt;
+  letter-spacing: 1px;
+  color: rgba(155, 125, 8, 255);
+  font-family: "SegoeUI-Light";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+}
+.nav_left {
+  display: block;
+  width: 32px;
+  height: 57px;
+  margin: auto;
+  position: absolute;
+  z-index: 15;
+  left: 0px;
+  top: 300px;
+}
+.nav_right {
+  display: block;
+  width: 32px;
+  height: 57px;
+  margin: auto;
+  position: absolute;
+  z-index: 15;
+  left: 1267px;
+  top: 300px;
+}
+.nav_left_1 {
+  display: block;
+  width: 13px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  z-index: 15;
+  left: 8px;
+  top: 319px;
+}
+.nav_right_1 {
+  display: block;
+  width: 13px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  z-index: 15;
+  left: 1279px;
+  top: 318px;
+}
+/* HOVER                                                           */
+.nav_left_1:hover {
+  display: block;
+  width: 15px;
+  height: 21px;
+  margin: auto;
+  position: absolute;
+  z-index: 15;
+  left: 1px;
+  top: 319px;
+}
+.nav_right_1:hover {
+  display: block;
+  width: 15px;
+  height: 21px;
+  margin: auto;
+  position: absolute;
+  z-index: 15;
+  left: 1289px;
+  top: 318px;
+}
+.text_nav_heder:hover {
+  display: block;
+  width: 101px;
+  height: 24px;
+  margin: auto;
+  position: absolute;
+  left: 77px;
+  top: 20px;
+  font-size: 13.04912pt;
+  letter-spacing: 1px;
+  color: red;
+  font-family: "SegoeUI-Light";
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+  text-shadow: 1px 2px 0px #000000;
+}
+.text_nav_heder_1:hover {
+  display: block;
+  width: 101px;
+  height: 24px;
+  margin: auto;
+  position: absolute;
+  left: 218px;
+  top: 20px;
+  font-size: 13.04912pt;
+  letter-spacing: 1px;
+  color: red;
+  font-family: "SegoeUI-Light";
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+  text-shadow: 1px 2px 0px #000000;
+}
+.text_nav_heder_2:hover {
+  display: block;
+  width: 101px;
+  height: 24px;
+  margin: auto;
+  position: absolute;
+  left: 359px;
+  top: 20px;
+  font-size: 13.04912pt;
+  letter-spacing: 1px;
+  color: red;
+  font-family: "SegoeUI-Light";
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 118%;
+  text-shadow: 1px 2px 0px #000000;
+}
+.button1:hover {
+  width: 109px;
+  height: 74px;
+  margin: auto;
+  position: absolute;
+  left: 115px;
+  top: 60px;
+  border: 2px double red;
+}
+.button2:hover {
+  width: 95px;
+  height: 99px;
+  margin: auto;
+  position: absolute;
+  left: 131px;
+  top: 35px;
+  border: 2px double red;
+}
+.button3:hover {
+  width: 82px;
+  height: 84px;
+  margin: auto;
+  position: absolute;
+  left: 119px;
+  top: 53px;
+  border: 2px double red;
+}
+.plus_image:hover {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  left: 1137px;
+  top: 318px;
+}
+
+.plus_image_1:hover {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  left: 454px;
+}
+.rounded_rectangle1:hover {
+  display: block;
+  width: 23%;
+  height: 15px;
+  margin: auto;
+  position: absolute;
+  left: 471px;
+  top: 104px;
+}
+                                                 /* MOBILE VERSION                                           */
+@media (max-width: 640px) {
+  body {
+    width: 640px;
+    height: 197vh;
+  }
+.container_bg {
+    display: block;
+    width: 100%;
+    height: 197vh;
+    margin: 0 auto;
+}
+  .container_bg_1 {
+    display: block;
+    width: 100%;
+    height: 1550px;
+    margin: 0 auto;
+  }
+  .zone_1 {
+    display: block;
+    width: 100%;
+    height: 465px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: 1044px;
+    background-color: #474747;
+  }
+  .zone_2 {
+    display: block;
+    width: 100%;
+    height: 465px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    left: 0px;
+    top: 485px;
+    background-color: #474747;
+    background-image: url(#);
+  }
+  .zone_3 {
+    display: none;
+    width: 100%;
+    height: 508px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: -1005px;
+    background-image: url(./assets/image/Layer\ 10\ copy\ 3.png);
+    box-shadow: 0px 8px 13px -13px #000000 inset;
+  }
+  .zone_4 {
+    display: none;
+    width: 100%;
+    height: 212px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: -212px;
+    background-image: url(./assets/image/Layer\ 7.png);
+    opacity: 40%;
+  }
+  .zone_5 {
+    display: none;
+    width: 100%;
+    height: -566px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: -565px;
+    box-shadow: 0px -7px 5px 1px #000000 inset;
+    background-image: url(./assets/image/Layer\ 20@1X.png),
+      url(./assets/image/Layer\ 1.png);
+    background-blend-mode: hue;
+  }
+  .bg {
+    display: none;
+    width: 100%;
+    height: 566px;
+    margin: auto;
+    opacity: 00.9;
+  }
+  
+  .container_for_footer {
+    display: block;
+    width: 100%;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    top: -44px;
+    left: 0px;
+    background-color:#4c4c4c;
+    box-shadow: 0px -3px 3px 1px rgba(0,0,0,0.75);
+  }
+  
+  .logo_footer {
+    display: block;
+    width: 31px;
+    height: 31px;
+    margin: auto;
+    position: absolute;
+    left: 25px;
+    top: 4px;
+  }
+  .logo_footer_2 {
+    display: block;
+    width: 29px;
+    height: 29px;
+    margin: auto;
+    position: absolute;
+    left: 26px;
+    top: 5px;
+    opacity: 0.5;
+  }
+  .logo_cont {
+    display: block;
+    width: 30.5%;
+    height: 41px;
+    margin: 0 auto;
+    position: absolute;
+    left: 39px;
+    top: 1px;
+  }
+  .footer_text {
+    display: block;
+    width: 62%;
+    height: 24px;
+    margin: auto;
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    font-size: 13.04912pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #000000
+  }
+  .container_for_image {
+    display: block;
+    width: 100%;
+    height: 485px;
+    margin: auto;
+    position: relative;
+    top: -485px;
+  }
+  .computer {
+    display:block;
+    width: 50%;
+    height: 251px;
+    margin: auto;
+    opacity: 1.57;
+    position: absolute;
+    left: 58px;
+    top: 157px;
+  }
+  .ellipse {
+    display: block;
+    width: 18%;
+    height: 116px;
+    margin: auto;
+    position: absolute;
+    left: 28px;
+    top: 114px;
+  }
+  .tablet {
+    display: block;
+    width: 20%;
+    height: 171px;
+    margin: auto;
+    position: absolute;
+    left: 406px;
+    top: 199px;
+    opacity: 0.8;
+  }
+  
+  .mobile {
+    display: block;
+    width: 6%;
+    height: 63px;
+    margin: auto;
+    position: absolute;
+    left: 558px;
+    top: 308px;
+    opacity: 0.9;
+  }
+  .zone_2_text {
+    display: block;
+    width: 105%;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    left: -28px;
+    top: 37px;
+    font-family: "PT Sans";
+    font-size: 42px;
+    color: #f5c506;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+  
+  .ellipseList_1 {
+    display: none;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    position: absolute;
+    left: 778px;
+    top: 188px;
+  }
+  .ellipseList_2 {
+    display: none;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    position: absolute;
+    left: 778px;
+    top: 238px;
+  }
+  .ellipseList_3 {
+    display: none;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    position: absolute;
+    left: 778px;
+    top: 304px;
+  }
+  .ellipseList_4 {
+    display: none;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    position: absolute;
+    left: 778px;
+    top: 355px;
+  }
+  .zone_2_text2 {
+    display: none;
+    font-family: "opensans";
+    font-size: 0px;
+    color: rgba(169, 169, 167, 255);
+    text-align: justify;
+    display: block;
+    width: 34%;
+    height: 185px;
+    margin: auto;
+    position: absolute;
+    left: 393px;
+    top: 184px;
+  }
+  .zone_2_text3 {
+    display: none;
+    font-family: "opensans";
+    font-size: 0px;
+    color: rgba(169, 169, 167, 255);
+    text-align: justify;
+    display: block;
+    width: 80%;
+    height: 181px;
+    margin: auto;
+    position: absolute;
+    left: 1px;
+    top: 49px;
+    line-height: 1.2;
+  }
+  .zone_2_text4 {
+    display: none;
+    font-family: "opensans";
+    font-size: 0px;
+    color: rgba(169, 169, 167, 255);
+    text-align: justify;
+    display: block;
+    width: 75%;
+    height: 181px;
+    margin: auto;
+    position: absolute;
+    left: 1px;
+    top: 164px;
+    line-height: 1.2;
+  }
+  .zone_2_text5 {
+    display: none;
+    font-family: "opensans";
+    font-size: 0px;
+    color: rgba(169, 169, 167, 255);
+    text-align: justify;
+    display: block;
+    width: 75%;
+    height: 57px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 115px;
+  }
+  .zone_2_text6 {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    width: 57%;
+    height: 34px;
+    left: -360px;
+    top: -18px;
+    margin: auto;
+    position: absolute;
+    text-transform: uppercase;
+  }
+  .heder {
+    display: block;
+    font-size: 57px;
+    width: 102.8%;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  
+  .image_zone3 {
+    display: none;
+    width: 923px;
+    height: 140px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 368px;
+  }
+  
+  .rounded_rectangle {
+    display: none;
+    width: 97%;
+    height: 15px;
+    margin: auto;
+    position: absolute;
+    left: 215px;
+    top: 104px;
+  }
+  .rounded_rectangle1 {
+    display: none;
+    width: 21%;
+    height: 15px;
+    margin: auto;
+    position: absolute;
+    left: 461px;
+    top: 104px;
+  }
+  .section_zone3 {
+    display: none;
+    width: 100%;
+    height: 444px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+  }
+  
+  .layer22 {
+    display: none;
+    width: 26.5%;
+    height: 233px;
+    margin: auto;
+    position: absolute;
+    left: 139px;
+    top: 107px;
+  }
+  .layer22_calendar {
+    display: none;
+    width: 8.5%;
+    height: 86px;
+    margin: auto;
+    position: absolute;
+    left: 139px;
+    top: 340px;
+  }
+  .Layer22_bg_twitter {
+    display: none;
+    width: 25.3%;
+    height: 233px;
+    margin: auto;
+    position: absolute;
+    left: 829px;
+    top: 108px;
+  }
+  .Layer22_twitter {
+    display: none;
+    width: 12.5%;
+    height: 134px;
+    margin: auto;
+    position: absolute;
+    left: 910px;
+    top: 167px;
+  }
+  .text_main_zone {
+    display: none;
+    width: 24.3%;
+    height: 218px;
+    margin: auto;
+    position: absolute;
+    left: 168px;
+    top: 123px;
+    font-size: 20.9912pt;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeWP-Light";
+    font-weight: 300;
+  }
+  .text_elements {
+    display: none;
+    width: 24.3%;
+    height: 225px;
+    font-size: 17pt;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    position: absolute;
+    text-align: right;
+    left: 827px;
+    top: 116px;
+    font-weight: normal;
+  }
+  .number25 {
+    display: none;
+    width: 7.3%;
+    height: 46px;
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeUI-Bold";
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 148px;
+    top: 354px;
+    font-weight: normal;
+  }
+  
+  .textAPRIL {
+    display: none;
+    width: 7.3%;
+    height: 46px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    left: 148px;
+    top: 390px;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .plus_image {
+    display: none;
+    width: 11px;
+    height: 11px;
+    margin: auto;
+    position: absolute;
+    left: 1137px;
+    top: 318px;
+    color: #ffffff;
+  }
+  
+  .plus_image_1 {
+    display: none;
+    width: 11px;
+    height: 11px;
+    margin: auto;
+    position: absolute;
+    left: 454px;
+    top: 318px;
+    color: #ffffff;
+  }
+  
+  .zone_header {
+    display: none;
+    width: 918px;
+    height: 130px;
+    margin: auto;
+    position: absolute;
+    left: 140px;
+    top: 33px;
+    font-size: 37px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .video_main {
+    display: none;
+    width: 24%;
+    height: 232px;
+    margin: auto;
+    position: absolute;
+    left: 483px;
+    top: 108px;
+  }
+  
+  .video_img {
+    display: none;
+    width: 12%;
+    height: 96px;
+    margin: auto;
+    position: absolute;
+    left: 557px;
+    top: 191px;
+  }
+  
+  .play_1 {
+    display: none;
+    width: 61px;
+    height: 61px;
+    margin: auto;
+    position: absolute;
+    left: 53px;
+    top: 12px;
+  }
+  
+  .play_2 {
+    display: none;
+    width: 17px;
+    height: 31px;
+    margin: auto;
+    position: absolute;
+    left: 77px;
+    top: 26px;
+  }
+  
+  .separator_1 {
+    display: none;
+    width: 1px;
+    height: 213px;
+    margin: auto;
+    position: absolute;
+    left: 139px;
+    top: 0px;
+  }
+  .separator_2 {
+    display: none;
+    width: 1px;
+    height: 213px;
+    margin: auto;
+    position: absolute;
+    left: 480px;
+    top: 0px;
+  }
+  .separator_3 {
+    display: none;
+    width: 1px;
+    height: 213px;
+    margin: auto;
+    position: absolute;
+    left: 819px;
+    top: 0px;
+  }
+  .separator_4 {
+    display: none;
+    width: 1px;
+    height: 213px;
+    margin: auto;
+    position: absolute;
+    left: 1159px;
+    top: 0px;
+  }
+  .button_1 {
+    display: none;
+    width: 31%;
+    height: 212px;
+    margin: auto;
+    position: absolute;
+    left: 138px;
+    top: 0px;
+  }
+  .button_2 {
+    display: none;
+    width: 31%;
+    height: 212px;
+    margin: auto;
+    position: absolute;
+    left: 480px;
+    top: 0px;
+  }
+  .button_3 {
+    display: none;
+    width: 31%;
+    height: 212px;
+    margin: auto;
+    position: absolute;
+    left: 819px;
+    top: 0px;
+  }
+  .button1 {
+    display: none;
+    width: 109px;
+    height: 74px;
+    margin: auto;
+    position: absolute;
+    left: 115px;
+    top: 60px;
+  }
+  .button2 {
+    display: none;
+    width: 95px;
+    height: 99px;
+    margin: auto;
+    position: absolute;
+    left: 131px;
+    top: 35px;
+  }
+  .button3 {
+    display: none;
+    width: 82px;
+    height: 84px;
+    margin: auto;
+    position: absolute;
+    left: 119px;
+    top: 53px;
+  }
+  .text_button_1 {
+    display: none;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "SegoeUI-Light";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    position: absolute;
+    left: 91px;
+    top: 149px;
+  }
+  .text_button_2 {
+    display: none;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "SegoeUI-Light";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    position: absolute;
+    left: 111px;
+    top: 149px;
   }
   .text_button_3 {
+    display: none;
     font-size: 27px;
     letter-spacing: 0px;
     color: #000000;
@@ -688,489 +1834,351 @@ top: 149px;
     position: absolute;
     left: 115px;
     top: 149px;
-    }
-    .main_text {
-      display: block;
-      width: 32%;
-      height: 50%;
-      margin: auto;
-      position: absolute;
-      left: 730px;
-      top: 242px;
-      font-size: 63px;
-      letter-spacing: 1px;
-      color: #f5c506;
-      font-family: "Asap-Regular";
-      font-weight: 400;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%
-    }
-    .colortext {
-      color: #ffffff;
-      position: relative;
- left: 9px;
-    }
-    .video_player {
-      display: block;
-      width: 42.2%;
-      height: 327px;
-      margin: auto;
-      position: absolute;
-      left: 150px;
-      top: 167px;
-    }
-    .birds {
-      display: block;
-      width: 100%;
-      height: 327px;
-      margin: auto;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .birds_bg {
-      display: block;
-      width: 100%;
-      height: 327px;
-      margin: auto;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .video_birds {
-      display: block;
-      width: 100%;
-      height: 327px;
-      margin: auto;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    .rounded_rectangle_1x1 {
-      display: block;
-      width: 73.3%;
-      height: 12px;
-      margin: auto;
-      position: absolute;
-      left: 80px;
-      top: 286px;
-      opacity: 1;
-    }
-    .rounded_rectangle_1x2 {
-      display: block;
-      width: 32%;
-      height: 12px;
-      margin: auto;
-      position: absolute;
-      left: 81px;
-      top: 286px;
-     
-    }
-    .sound {
-      display: block;
-      width: 2.5%;
-      height: 15px;
-      margin: auto;
-      position: absolute;
-      left: 515px;
-      top: 285px;
-    }
-    .play_button {
-      display: block;
-      width: 5%;
-      height: 27px;
-      margin: auto;
-      position: absolute;
-      left: 29px;
-      top: 278px;
-    }
-    .play_button_1 {
-      display: block;
-      width: 2%;
-      height: 17px;
-      margin: auto;
-      position: absolute;
-      left: 39px;
-      top: 283px;
-    
-    }
-    .play_button_2 {
-      display: block;
-      width: 12.2%;
-      height: 67px;
-      margin: auto;
-      position: absolute;
-      left: 241px;
-      top: 130px;
-    
-    }
-    .play_button_3 {
-      display: block;
-      width: 3.3%;
-      height: 34px;
-      margin: auto;
-      position: absolute;
-      left: 268px;
-      top: 147px;
-    
-    }
+  }
+  .main_text {
+    display: none;
+    width: 32%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    left: 730px;
+    top: 242px;
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: #f5c506;
+    font-family: "Asap-Regular";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+  }
+  .colortext {
+    display: none;
+    color: #ffffff;
+    position: relative;
+    left: 9px;
+  }
+  .video_player {
+    display: none;
+    width: 42.2%;
+    height: 327px;
+    margin: auto;
+    position: absolute;
+    left: 150px;
+    top: 167px;
+  }
+  .birds {
+    display: none;
+    width: 100%;
+    height: 327px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .birds_bg {
+    display: none;
+    width: 100%;
+    height: 327px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .video_birds {
+    display: none;
+    width: 100%;
+    height: 327px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .rounded_rectangle_1x1 {
+    display: none;
+    width: 73.3%;
+    height: 12px;
+    margin: auto;
+    position: absolute;
+    left: 80px;
+    top: 286px;
+    opacity: 1;
+  }
+  .rounded_rectangle_1x2 {
+    display: none;
+    width: 32%;
+    height: 12px;
+    margin: auto;
+    position: absolute;
+    left: 81px;
+    top: 286px;
+  }
+  .sound {
+    display: none;
+    width: 2.5%;
+    height: 15px;
+    margin: auto;
+    position: absolute;
+    left: 515px;
+    top: 285px;
+  }
+  .play_button {
+    display: none;
+    width: 5%;
+    height: 27px;
+    margin: auto;
+    position: absolute;
+    left: 29px;
+    top: 278px;
+  }
+  .play_button_1 {
+    display: none;
+    width: 2%;
+    height: 17px;
+    margin: auto;
+    position: absolute;
+    left: 39px;
+    top: 283px;
+  }
+  .play_button_2 {
+    display: none;
+    width: 12.2%;
+    height: 67px;
+    margin: auto;
+    position: absolute;
+    left: 241px;
+    top: 130px;
+  }
+  .play_button_3 {
+    display: none;
+    width: 3.3%;
+    height: 34px;
+    margin: auto;
+    position: absolute;
+    left: 268px;
+    top: 147px;
+  }
+  
+  .logo_heder {
+    display: block;
+    width: 29%;
+    height: 62px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+    top: 0px;
+    background-image: url(./assets/image/Layer\ 26@1X.png)
+  }
+  .logo_heder_1 {
+    display: block;
+    width: 38px;
+    height: 37px;
+    margin: auto;
+    position: absolute;
+    left: 13px;
+    top: 12px;
+    opacity: 0.5;
+  }
+  .logo_heder_2 {
+    display: block;
+    width: 40px;
+    height: 39px;
+    margin: auto;
+    position: absolute;
+    left: 12px;
+    top: 11px;
+  }
+  .logo_text_heder {
+    display: block;
+    width: 138px;
+    height: 24px;
+    margin: auto;
+    position: absolute;
+    left: 42px;
+    top: 23px;
+    font-size: 14.08912pt;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "LucidaSans-Italic";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+    text-shadow: 1px 1px 0px #000000;
+  }
+  .nav_heder {
+    display: block;
+    width: 71.1%;
+    height: 62px;
+    margin: auto;
+    position: absolute;
+    z-index: 12;
+    left: 185px;
+    top: 0px;
+    background-image: url(./assets/image/Rectangle\ 2\ copy@1X.png)
+  }
+  .bg_nav_heder {
+    display: none;
+    width: 453px;
+    height: 41px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+  }
+  .bg_nav_heder_1 {
+    display: none;
+    width: 453px;
+    height: 41px;
+    margin: auto;
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    opacity: 0.8;
+  }
+  .bg_nav_heder_2 {
+    display: none;
+    width: 453px;
+    height: 41px;
+    margin: auto;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+  .bg_nav_heder_3 {
+    display: block;
+    width: 1px;
+    height: 62px;
+    margin: auto;
+    position: absolute;
+    left: 172px;
+    top: 0px;
+  }
+  .bg_nav_heder_4 {
+    display: block;
+    width: 1px;
+    height: 62px;
+    margin: auto;
+    position: absolute;
+    left: 305px;
+    top: 0px;
+  }
+  .logo_nav_heder {
+    display: block;
+    width: 24px;
+    height: 22px;
+    margin: auto;
+    position: absolute;
+    left: 24px;
+    top: 20px;
+  }
+  .logo_nav_heder_1 {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: auto;
+    position: absolute;
+    left: 181px;
+    top: 21px;
+  }
+  .logo_nav_heder_2 {
+    display: block;
+    width: 28px;
+    height: 21px;
+    margin: auto;
+    position: absolute;
+    left: 318px;
+    top: 20px;
+  }
+  .text_nav_heder {
+    display: block;
+    width: 172px;
+    height: 29px;
+    margin: auto;
+    position: absolute;
+    left: 19px;
+    top: 18px;
+    font-size: 15.04912pt;
+    letter-spacing: 0px;
+    color: rgba(155, 125, 8, 255);
+    font-family: "SegoeWP";
+  }
+  .text_nav_heder_1 {
+    display: block;
+    width: 89px;
+    height: 22px;
+    margin: auto;
+    position: absolute;
+    left: 205px;
+    top: 21px;
+    font-size: 14.04912pt;
+    letter-spacing: 0;
+    color: rgba(155, 125, 8, 255);
+    font-family: "SegoeWP";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+  }
+  .text_nav_heder_2 {
+    display: block;
+    width: 81px;
+    height: 14px;
+    margin: auto;
+    position: absolute;
+    left: 357px;
+    top: 21px;
+    font-size: 14.04912pt;
+    letter-spacing: 0;
+    color: rgba(155, 125, 8, 255);
+    font-family: "SegoeWP";
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+  }
+  .nav_left {
+    display: none;
+    width: 32px;
+    height: 57px;
+    margin: auto;
+    position: absolute;
+    z-index: 15;
+    left: 0px;
+    top: 300px;
+  }
+  .nav_right {
+    display: none;
+    width: 32px;
+    height: 57px;
+    margin: auto;
+    position: absolute;
+    z-index: 15;
+    left: 1267px;
+    top: 300px;
+  }
+  .nav_left_1 {
+    display: none;
+    width: 13px;
+    height: 19px;
+    margin: auto;
+    position: absolute;
+    z-index: 15;
+    left: 8px;
+    top: 319px;
+  }
+  .nav_right_1 {
+    display: none;
+    width: 13px;
+    height: 19px;
+    margin: auto;
+    position: absolute;
+    z-index: 15;
+    left: 1279px;
+    top: 318px;
+  }
 
-    .logo_heder {
-      display: block;
-      width: 99%;
-      height: 115px;
-      margin: auto;
-      position: absolute;
-      left: 142px;
-      z-index: 10;
-      top: 2px;
-    }
-    .logo_heder_1 {
-      display: block;
-      width: 79px;
-      height: 79px;
-      margin: auto;
-      position: absolute;
-      left: 142px;
-      top: 29px;
-      opacity: 0.5;
-    }
-    .logo_heder_2 {
-      display: block;
-      width: 83px;
-      height: 83px;
-      margin: auto;
-      position: absolute;
-      left: 140px;
-      top: 28px;
-    }
-    .logo_text_heder{
-      display: block;
-      width: 225px;
-      height: 30px;
-      margin: auto;
-      position: absolute;
-      left: 226px;
-      top: 50px;
-      font-size: 30.04912pt;
-      letter-spacing: 1px;
-      color: rgba(255, 255, 255, 255);
-      font-family: "LucidaSans-Italic";
-      font-weight: 400;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%
-    }
-    .nav_heder {
-      display: block;
-      width: 35.1%;
-      height: 58px;
-      margin: auto;
-      position: absolute;
-      z-index: 12;
-      left: 842px;
-      top: 63px;
-      
-    }
-    .bg_nav_heder {
-      display: block;
-      width: 453px;
-      height: 41px;
-      margin: auto;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      opacity: 0.5;
-    }
-    .bg_nav_heder_1 {
-      display: block;
-      width: 453px;
-      height: 41px;
-      margin: auto;
-      position: absolute;
-      left: 4px;
-      top: 3px;
-      opacity: 0.8;
-    }
-    .bg_nav_heder_2 {
-      display: block;
-      width: 453px;
-      height: 41px;
-      margin: auto;
-      position: absolute;
-      left: 8px;
-      top: 8px;
-    }
-    .bg_nav_heder_3 {
-      display: block;
-      width: 1px;
-      height: 40px;
-      margin: auto;
-      position: absolute;
-      left: 180px;
-      top: 8px;
-    }
-    .bg_nav_heder_4 {
-      display: block;
-      width: 1px;
-      height: 40px;
-      margin: auto;
-      position: absolute;
-      left: 313px;
-      top: 8px;
-    }
-    .logo_nav_heder {
-      display: block;
-      width: 21px;
-      height: 19px;
-      margin: auto;
-      position: absolute;
-      left: 47px;
-      top: 19px;
-    }
-    .logo_nav_heder_1 {
-      display: block;
-      width: 19px;
-      height: 19px;
-      margin: auto;
-      position: absolute;
-      left: 195px;
-      top: 19px;
-    }
-    .logo_nav_heder_2 {
-      display: block;
-      width: 24px;
-      height: 18px;
-      margin: auto;
-      position: absolute;
-      left: 331px;
-      top: 19px;
-    }
-    .text_nav_heder {
-      display: block;
-      width: 81px;
-      height: 14px;
-      margin: auto;
-      position: absolute;
-      left: 77px;
-      top: 20px;
-      font-size: 12.04912pt;
-      letter-spacing: 1px;
-      color: rgba(155, 125, 8, 255);
-      font-family: "SegoeUI-Light";
-      font-weight: 400;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%
-    }
-    .text_nav_heder_1 {
-      display: block;
-      width: 81px;
-      height: 14px;
-      margin: auto;
-      position: absolute;
-      left: 218px;
-      top: 20px;
-      font-size: 12.04912pt;
-      letter-spacing: 1px;
-      color: rgba(155, 125, 8, 255);
-      font-family: "SegoeUI-Light";
-      font-weight: 400;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%
-    }
-    .text_nav_heder_2 {
-      display: block;
-      width: 81px;
-      height: 14px;
-      margin: auto;
-      position: absolute;
-      left: 359px;
-      top: 20px;
-      font-size: 12.04912pt;
-      letter-spacing: 1px;
-      color: rgba(155, 125, 8, 255);
-      font-family: "SegoeUI-Light";
-      font-weight: 400;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%
-      
-    }
-    .nav_left {
-      display: block;
-      width: 32px;
-      height: 57px;
-      margin: auto;
-      position: absolute;
-      z-index: 15;
-      left: 0px;
-      top: 300px;
-    }
-    .nav_right {
-      display: block;
-      width: 32px;
-      height: 57px;
-      margin: auto;
-      position: absolute;
-      z-index: 15;
-      left: 1267px;
-      top: 300px;
-    }
-    .nav_left_1 {
-      display: block;
-      width: 13px;
-      height: 19px;
-      margin: auto;
-      position: absolute;
-      z-index: 15;
-      left: 8px;
-      top: 319px;
-    }
-    .nav_right_1 {
-      display: block;
-      width: 13px;
-      height: 19px;
-      margin: auto;
-      position: absolute;
-      z-index: 15;
-      left: 1279px;
-      top: 318px;
-    }
-                                              /* HOVER                                                           */
-     .nav_left_1:hover {
-      display: block;
-      width: 15px;
-      height: 21px;
-      margin: auto;
-      position: absolute;
-      z-index: 15;
-      left: 1px;
-      top: 319px;
-    }
-    .nav_right_1:hover {
-      display: block;
-      width: 15px;
-      height: 21px;
-      margin: auto;
-      position: absolute;
-      z-index: 15;
-      left: 1289px;
-      top: 318px;
-    }                                         
-    .text_nav_heder:hover {
-      display: block;
-      width: 101px;
-      height: 24px;
-      margin: auto;
-      position: absolute;
-      left: 77px;
-      top: 20px;
-      font-size: 13.04912pt;
-      letter-spacing:1px;
-      color:red;
-      font-family: "SegoeUI-Light";
-      font-weight: 600;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%;
-      text-shadow: 1px 2px 0px #000000;
+ 
 
-    }
-    .text_nav_heder_1:hover  {
-      display: block;
-      width: 101px;
-      height: 24px;
-      margin: auto;
-      position: absolute;
-      left: 218px;
-      top: 20px;
-      font-size: 13.04912pt;
-      letter-spacing: 1px;
-      color:red;
-      font-family: "SegoeUI-Light";
-      font-weight: 600;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118% ;
-      text-shadow: 1px 2px 0px #000000;
-
-    }
-    .text_nav_heder_2:hover  {
-      display: block;
-      width: 101px;
-      height: 24px;
-      margin: auto;
-      position: absolute;
-      left: 359px;
-      top: 20px;
-      font-size: 13.04912pt;
-      letter-spacing: 1px;
-      color:red;
-      font-family: "SegoeUI-Light";
-      font-weight: 600;
-      text-align: center;
-      text-transform: uppercase;
-      line-height: 118%;
-      text-shadow: 1px 2px 0px #000000;
-    }
-    .button1:hover { 
-      width: 109px;
-      height: 74px;
-      margin: auto;
-      position: absolute;
-      left: 115px;
-      top: 60px;
-      border: 2px double red;
-    }
-    .button2:hover {
-      width: 95px;
-      height: 99px;
-      margin: auto;
-      position: absolute;
-      left: 131px;
-      top: 35px;
-      border: 2px double red;
-
-    }
-    .button3:hover {
-      width: 82px;
-      height: 84px;
-      margin: auto;
-      position: absolute;
-      left: 119px;
-      top: 53px;
-      border: 2px double red;
-
-    }
-    .plus_image:hover {
-      display: block;
-        width: 25px;
-        height: 25px;
-        margin: auto;
-        position: absolute;
-        left: 1137px;
-        top: 318px;
-    
-    }
-    
-    .plus_image_1:hover {
-      display: block;
-        width: 25px;
-        height: 25px;
-        margin: auto;
-        position: absolute;
-        left: 454px;
-    }
-    .rounded_rectangle1:hover {
-      display: block;
-      width: 23%;
-      height: 15px;
-      margin: auto;
-      position: absolute;
-      left: 471px;
-      top: 104px;
-      
-    }
+}
