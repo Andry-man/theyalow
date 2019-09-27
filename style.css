@@ -45,6 +45,7 @@
   src: url(./assets/fonts/SegoeWP.ttf) format("truetype");
 }
 
+
 .container_bg_1 {
   display: block;
   width: 82%;
@@ -104,11 +105,10 @@
 .zone_5 {
   display: block;
   width: 100%;
-  height: -566px;
   margin: auto;
   font-size: 30px;
   position: relative;
-  top: -565px;
+  top: -566px;
   box-shadow: 0px -7px 5px 1px #000000 inset;
   background-image: url(./assets/image/Layer\ 20@1X.png),
     url(./assets/image/Layer\ 1.png);
@@ -743,12 +743,12 @@
 }
 .video_birds {
   display: block;
-  width: 100%;
-  height: 327px;
-  margin: auto;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+    width: 100%;
+    height: 113%;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: -43px;
 }
 .rounded_rectangle_1x1 {
   display: block;
@@ -768,6 +768,7 @@
   position: absolute;
   left: 81px;
   top: 286px;
+  border-radius: 5px 0px 0px 5px;
 }
 .sound {
   display: block;
@@ -1036,7 +1037,134 @@
   left: 1279px;
   top: 318px;
 }
-/* HOVER                                                           */
+.text_for_chat {
+  display: none;
+  width: 44.3%;
+  height: 154px;
+  margin: auto;
+  position: absolute;
+  left: 324px;
+  top: 24px;
+}
+.text_chat_1 {
+  display: none;
+  width: 81%;
+  height: 39px;
+  margin: auto;
+  position: absolute;
+  left: 27px;
+  font-size: 10pt;
+  top: 9px;
+  z-index: 5;
+  font-family: "Arial";
+  color: rgba(143, 142, 142, 255);
+}
+.text_chat_2 {
+  display: none;
+  width: 81%;
+  height: 39px;
+  margin: auto;
+  position: absolute;
+  left: 27px;
+  font-size: 10pt;
+  top: 64px;
+  z-index: 5;
+  font-family: "Arial";
+  color: rgba(143, 142, 142, 255);
+}
+.text_chat_3 {
+  display: none;
+  width: 81%;
+  height: 39px;
+  margin: auto;
+  position: absolute;
+  left: 27px;
+  font-size: 10pt;
+  top: 120px;
+  z-index: 5;
+  font-family: "Arial";
+  color: rgba(143, 142, 142, 255);
+}
+.chat_zone3 {
+  display: none;
+  width: 44%;
+  height: 42px;
+  margin: auto;
+  position: absolute;
+  left: 325px;
+  top: 24px;
+}
+.chat_zone3_2 {
+  display: none;
+  width: 44%;
+  height: 42px;
+  margin: auto;
+  position: absolute;
+  left: 325px;
+  top: 80px;
+  opacity: 0.6;
+}
+.chat_zone3_3 {
+  display: none;
+  width: 44%;
+  height: 42px;
+  margin: auto;
+  position: absolute;
+  left: 325px;
+  top: 136px;
+  opacity: 0.6;
+}
+.chatzone {
+  display: none;
+  width: 42%;
+  height: 29px;
+  margin: auto;
+  position: absolute;
+  left: 337px;
+  top: 192px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: inset 4px 9px 10px -11px rgba(0,0,0,0.75);
+  background-color: white;
+  border-top:1px solid #d0a806;
+  border-right:1px solid #d0a806;
+  border-bottom:1px solid #d0a806;
+  border-left:1px solid #d0a806;
+}
+.button_tweet {
+  display: none;
+  width: 69px;
+  height: 29px;
+  margin: auto;
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+.text_for_button {
+  display: none;
+  width: 38.3%;
+  height: 37px;
+  margin: auto;
+  position: absolute;
+  z-index: 5;
+  left: 214px;
+  top: -5px;
+  font-size: 11.00000pt;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Arial";
+}
+.bg_zone_4 {
+  display: none;
+  width: 100%;
+  height: 180px;
+  margin: auto;
+  font-size: 30px;
+  position: relative;
+  top: -9px;
+  z-index: 4;
+}
+                                /* HOVER                                                           */
 .nav_left_1:hover {
   display: block;
   width: 15px;
@@ -1167,6 +1295,33 @@
 }
                                                  /* MOBILE VERSION                                           */
 @media (max-width: 640px) {
+  .button_tweeter{
+    display: block;
+    width: 66px;
+    height: 31px;
+    position: relative;
+    top: -28px;
+    z-index: 5;
+    left: 201px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .form_mobile {
+    display: block;
+    width: 75%;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    z-index: 5;
+    left: -37px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: inset 4px 9px 10px -11px rgba(0,0,0,0.75);
+    border: none;
+  }
   body {
     width: 640px;
     height: 197vh;
@@ -1206,39 +1361,77 @@
     background-image: url(#);
   }
   .zone_3 {
-    display: none;
+    display: block;
     width: 100%;
-    height: 508px;
+    height: 233px;
     margin: auto;
     font-size: 30px;
     position: relative;
-    top: -1005px;
-    background-image: url(./assets/image/Layer\ 10\ copy\ 3.png);
-    box-shadow: 0px 8px 13px -13px #000000 inset;
-  }
+    top: -213px;
+    background-image: url(#);
+    background-color: #f5c507 ;
+    box-shadow: none;
+}
   .zone_4 {
-    display: none;
+    display: block;
     width: 100%;
-    height: 212px;
+    height: 169px;
     margin: auto;
     font-size: 30px;
     position: relative;
-    top: -212px;
+    top: -424px;
     background-image: url(./assets/image/Layer\ 7.png);
     opacity: 40%;
   }
-  .zone_5 {
-    display: none;
+  .bg_zone_4 {
+    display: block;
     width: 100%;
-    height: -566px;
+    height: 180px;
     margin: auto;
     font-size: 30px;
     position: relative;
-    top: -565px;
-    box-shadow: 0px -7px 5px 1px #000000 inset;
-    background-image: url(./assets/image/Layer\ 20@1X.png),
-      url(./assets/image/Layer\ 1.png);
-    background-blend-mode: hue;
+    top: -9px;
+    z-index: 4;
+  }
+  .bg_zone4 {
+    display: block;
+    width: 100%;
+    height: 178px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+  }
+  .bg_zone4-1 {
+    display: block;
+    width: 100%;
+    height: 178px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: -177px;
+  }
+  .nav {
+    display: block;
+    width: 100%;
+    height: 171px;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+  }
+  .zone_5 {
+    display: block;
+    width: 100%;
+    height: 319px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: -505px;
+    box-shadow: inset 0px 5px 5px 0px rgba(0,0,0,0.75);
+    background-image: url(#), url(#);
+    background-blend-mode: none;
   }
   .bg {
     display: none;
@@ -1253,10 +1446,10 @@
     width: 100%;
     height: 44px;
     margin: 0 auto;
-    position: relative;
-    top: -44px;
+    position: absolute;
     left: 0px;
-    background-color:#4c4c4c;
+    top: 1510px;
+    background-color: #4c4c4c;
     box-shadow: 0px -3px 3px 1px rgba(0,0,0,0.75);
   }
   
@@ -1490,15 +1683,43 @@
   }
   
   .image_zone3 {
-    display: none;
-    width: 923px;
-    height: 140px;
+    display: block;
+    width: 100%;
+    height: 233px;
     margin: auto;
     position: absolute;
     left: 0px;
-    top: 368px;
+    top: 0px;
   }
-  
+  .chat_zone3 {
+    display: block;
+    width: 44%;
+    height: 42px;
+    margin: auto;
+    position: absolute;
+    left: 325px;
+    top: 24px;
+  }
+  .chat_zone3_2 {
+    display: block;
+    width: 44%;
+    height: 42px;
+    margin: auto;
+    position: absolute;
+    left: 325px;
+    top: 80px;
+    opacity: 0.6;
+  }
+  .chat_zone3_3 {
+    display: block;
+    width: 44%;
+    height: 42px;
+    margin: auto;
+    position: absolute;
+    left: 325px;
+    top: 136px;
+    opacity: 0.6;
+  }
   .rounded_rectangle {
     display: none;
     width: 97%;
@@ -1518,23 +1739,23 @@
     top: 104px;
   }
   .section_zone3 {
-    display: none;
+    display: block;
     width: 100%;
-    height: 444px;
-    margin: auto;
-    position: absolute;
-    left: 0px;
-    top: 2px;
-  }
-  
-  .layer22 {
-    display: none;
-    width: 26.5%;
     height: 233px;
     margin: auto;
     position: absolute;
-    left: 139px;
-    top: 107px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .layer22 {
+    display: block;
+    width: 46.7%;
+    height: 233px;
+    margin: auto;
+    position: absolute;
+    left: 9px;
+    top: -241px;
   }
   .layer22_calendar {
     display: none;
@@ -1554,29 +1775,118 @@
     left: 829px;
     top: 108px;
   }
+  .chatzone {
+    display: block;
+    width: 42%;
+    height: 29px;
+    margin: auto;
+    position: absolute;
+    left: 337px;
+    top: 192px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: inset 4px 9px 10px -11px rgba(0,0,0,0.75);
+    background-color: white;
+    border-top:1px solid #d0a806;
+    border-right:1px solid #d0a806;
+    border-bottom:1px solid #d0a806;
+    border-left:1px solid #d0a806;
+  }
+  .button_tweet {
+    display: block;
+    width: 69px;
+    height: 29px;
+    margin: auto;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    border-radius: 0px 10px 10px 0px;
+  }
+  .text_for_button {
+    display: block;
+    width: 38.3%;
+    height: 37px;
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+    left: 214px;
+    top: -5px;
+    font-size: 11.00000pt;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Arial";
+  }
+  .text_for_chat {
+    display: block;
+    width: 44.3%;
+    height: 154px;
+    margin: auto;
+    position: absolute;
+    left: 324px;
+    top: 24px;
+  }
+  .text_chat_1 {
+    display: block;
+    width: 81%;
+    height: 39px;
+    margin: auto;
+    position: absolute;
+    left: 27px;
+    font-size: 10pt;
+    top: 9px;
+    z-index: 5;
+    font-family: "Arial";
+    color: rgba(143, 142, 142, 255);
+  }
+  .text_chat_2 {
+    display: block;
+    width: 81%;
+    height: 39px;
+    margin: auto;
+    position: absolute;
+    left: 27px;
+    font-size: 10pt;
+    top: 64px;
+    z-index: 5;
+    font-family: "Arial";
+    color: rgba(143, 142, 142, 255);
+  }
+  .text_chat_3 {
+    display: block;
+    width: 81%;
+    height: 39px;
+    margin: auto;
+    position: absolute;
+    left: 27px;
+    font-size: 10pt;
+    top: 120px;
+    z-index: 5;
+    font-family: "Arial";
+    color: rgba(143, 142, 142, 255);
+  }
   .Layer22_twitter {
-    display: none;
-    width: 12.5%;
+    display: block;
+    width: 24.2%;
     height: 134px;
     margin: auto;
     position: absolute;
-    left: 910px;
-    top: 167px;
+    left: 87px;
+    top: 60px;
+    opacity: 0.9;
   }
   .text_main_zone {
-    display: none;
-    width: 24.3%;
+    display: block;
+    width: 38.3%;
     height: 218px;
     margin: auto;
     position: absolute;
-    left: 168px;
-    top: 123px;
-    font-size: 20.9912pt;
+    left: 36px;
+    top: -226px;
+    font-size: 21.9912pt;
     letter-spacing: 0px;
-    line-height: 38px;
+    line-height: 34px;
     color: #ffffff;
     font-family: "SegoeWP-Light";
-    font-weight: 300;
+    font-weight: 100;
   }
   .text_elements {
     display: none;
@@ -1637,13 +1947,13 @@
   }
   
   .plus_image_1 {
-    display: none;
+    display: block;
     width: 11px;
     height: 11px;
     margin: auto;
     position: absolute;
-    left: 454px;
-    top: 318px;
+    left: 286px;
+    top: -37px;
     color: #ffffff;
   }
   
@@ -1664,27 +1974,27 @@
     text-transform: uppercase;
   }
   .video_main {
-    display: none;
-    width: 24%;
-    height: 232px;
+    display: block;
+    width: 49%;
+    height: 234px;
     margin: auto;
     position: absolute;
-    left: 483px;
-    top: 108px;
+    left: 318px;
+    top: -244px;
   }
   
   .video_img {
-    display: none;
+    display: block;
     width: 12%;
     height: 96px;
     margin: auto;
     position: absolute;
-    left: 557px;
-    top: 191px;
+    left: 395px;
+    top: -159px;
   }
   
   .play_1 {
-    display: none;
+    display: block;
     width: 61px;
     height: 61px;
     margin: auto;
@@ -1694,7 +2004,7 @@
   }
   
   .play_2 {
-    display: none;
+    display: block;
     width: 17px;
     height: 31px;
     margin: auto;
@@ -1740,76 +2050,79 @@
     top: 0px;
   }
   .button_1 {
-    display: none;
-    width: 31%;
-    height: 212px;
+    display: block;
+    width: 15%;
+    height: 75px;
     margin: auto;
     position: absolute;
-    left: 138px;
-    top: 0px;
+    z-index: 10;
+    left: 42px;
+    top: 29px;
   }
   .button_2 {
-    display: none;
-    width: 31%;
-    height: 212px;
+    display: block;
+    width: 20%;
+    height: 119px;
     margin: auto;
     position: absolute;
-    left: 480px;
-    top: 0px;
+    left: 270px;
+    top: 24px;
   }
   .button_3 {
-    display: none;
-    width: 31%;
-    height: 212px;
+    display: block;
+    width: 14%;
+    height: 114px;
     margin: auto;
     position: absolute;
-    left: 819px;
-    top: 0px;
+    left: 493px;
+    top: 26px;
   }
   .button1 {
-    display: none;
-    width: 109px;
-    height: 74px;
+    display: block;
+    width: 89px;
+    height: 61px;
     margin: auto;
     position: absolute;
-    left: 115px;
-    top: 60px;
+    left: 3px;
+    top: 6px;
   }
   .button2 {
-    display: none;
-    width: 95px;
-    height: 99px;
+    display: block;
+    width: 67px;
+    height: 73px;
     margin: auto;
     position: absolute;
-    left: 131px;
-    top: 35px;
+    left: 23px;
+    top: 5px;
   }
   .button3 {
-    display: none;
-    width: 82px;
-    height: 84px;
+    display: block;
+    width: 69px;
+    height: 69px;
     margin: auto;
     position: absolute;
-    left: 119px;
-    top: 53px;
+    left: 2px;
+    top: 5px;
   }
   .text_button_1 {
-    display: none;
-    font-size: 27px;
+    display: block;
+    font-size: 23px;
     letter-spacing: 0px;
     color: #000000;
     font-family: "SegoeUI-Light";
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     margin: auto;
     position: absolute;
-    left: 91px;
-    top: 149px;
+    left: -24px;
+    width: 202%;
+    height: 38px;
+    top: 87px;
   }
   .text_button_2 {
-    display: none;
-    font-size: 27px;
+    display: block;
+    font-size: 24px;
     letter-spacing: 0px;
     color: #000000;
     font-family: "SegoeUI-Light";
@@ -1818,12 +2131,12 @@
     text-transform: uppercase;
     margin: auto;
     position: absolute;
-    left: 111px;
-    top: 149px;
+    left: -1px;
+    top: 92px;
   }
   .text_button_3 {
-    display: none;
-    font-size: 27px;
+    display: block;
+    font-size: 23px;
     letter-spacing: 0px;
     color: #000000;
     font-family: "SegoeUI-Light";
@@ -1832,8 +2145,8 @@
     text-transform: uppercase;
     margin: auto;
     position: absolute;
-    left: 115px;
-    top: 149px;
+    left: 2px;
+    top: 91px;
   }
   .main_text {
     display: none;
@@ -1859,103 +2172,105 @@
     left: 9px;
   }
   .video_player {
-    display: none;
-    width: 42.2%;
-    height: 327px;
-    margin: auto;
-    position: absolute;
-    left: 150px;
-    top: 167px;
-  }
-  .birds {
-    display: none;
+    display: block;
     width: 100%;
-    height: 327px;
+    height: 321px;
     margin: auto;
     position: absolute;
     left: 0px;
     top: 0px;
   }
+  .birds {
+    display: block;
+    width: 638px;
+    height: 324px;
+    margin: auto;
+    position: absolute;
+    left: 2px;
+    top: -3px;
+  }
   .birds_bg {
-    display: none;
+    display: block;
     width: 100%;
-    height: 327px;
+    height: 324px;
     margin: auto;
     position: absolute;
     left: 0px;
     top: 0px;
   }
   .video_birds {
-    display: none;
-    width: 100%;
-    height: 327px;
+    display: block;
+    width: 640px;
+    height: 324px;
     margin: auto;
     position: absolute;
     left: 0px;
     top: 0px;
+    opacity: 0.4;
   }
   .rounded_rectangle_1x1 {
-    display: none;
-    width: 73.3%;
+    display: block;
+    width: 63.4%;
     height: 12px;
     margin: auto;
     position: absolute;
-    left: 80px;
+    left: 130px;
     top: 286px;
     opacity: 1;
   }
   .rounded_rectangle_1x2 {
-    display: none;
-    width: 32%;
+    display: block;
+    width: 28%;
     height: 12px;
     margin: auto;
     position: absolute;
-    left: 81px;
+    left: 131px;
     top: 286px;
+    border-radius: 6px 0px 0px 6px;
   }
   .sound {
-    display: none;
+    display: block;
     width: 2.5%;
     height: 15px;
     margin: auto;
     position: absolute;
-    left: 515px;
+    left: 568px;
     top: 285px;
   }
   .play_button {
-    display: none;
-    width: 5%;
+    display: block;
+    width: 4%;
     height: 27px;
     margin: auto;
     position: absolute;
-    left: 29px;
+    left: 84px;
     top: 278px;
   }
   .play_button_1 {
-    display: none;
+    display: block;
     width: 2%;
     height: 17px;
     margin: auto;
     position: absolute;
-    left: 39px;
+    left: 92px;
     top: 283px;
   }
   .play_button_2 {
-    display: none;
-    width: 12.2%;
+    display: block;
+    width: 10.2%;
     height: 67px;
     margin: auto;
     position: absolute;
-    left: 241px;
+    left: 296px;
     top: 130px;
   }
   .play_button_3 {
-    display: none;
+    display: block;
     width: 3.3%;
     height: 34px;
     margin: auto;
     position: absolute;
-    left: 268px;
+    left: 321px;
     top: 147px;
   }
   
@@ -2177,6 +2492,95 @@
     z-index: 15;
     left: 1279px;
     top: 318px;
+  }
+  .text_nav_heder:hover {
+    display: block;
+    width: 101px;
+    height: 24px;
+    margin: auto;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    font-size: 8.04912pt;
+    letter-spacing: 1px;
+    color: red;
+    font-family: "SegoeUI-Light";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+    text-shadow: 1px 2px 0px #000000;
+  }
+  .text_nav_heder_1:hover {
+    display: block;
+    width: 101px;
+    height: 24px;
+    margin: auto;
+    position: absolute;
+    left: 218px;
+    top: 20px;
+    font-size: 8.04912pt;
+    letter-spacing: 1px;
+    color: red;
+    font-family: "SegoeUI-Light";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+    text-shadow: 1px 2px 0px #000000;
+  }
+  .text_nav_heder_2:hover {
+    display: block;
+    width: 101px;
+    height: 24px;
+    margin: auto;
+    position: absolute;
+    left: 359px;
+    top: 20px;
+    font-size: 8.04912pt;
+    letter-spacing: 1px;
+    color: red;
+    font-family: "SegoeUI-Light";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 118%;
+    text-shadow: 1px 2px 0px #000000;
+  }
+  .button1:hover {
+    width: 109px;
+    height: 74px;
+    margin: auto;
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    border: 2px double red;
+  }
+  .button2:hover {
+    width: 95px;
+    height: 99px;
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    border: 2px double red;
+  }
+  .button3:hover {
+    width: 82px;
+    height: 84px;
+    margin: auto;
+    position: absolute;
+    left: 2px;
+    top: -5px;
+    border: 2px double red;
+  }
+  .plus_image_1:hover {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    left: 277px;
   }
 
  
